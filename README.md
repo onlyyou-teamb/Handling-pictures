@@ -24,6 +24,11 @@ face detection, face recognition, GAN
 
 ### num_of_face.py
 
-> input: path of profile image
-> output: 1. Boolean_type True, coordinate of face
-             2. Boolean_type False
+####input:
+ 
+path of profile image
+
+####output: 
+
+1. Boolean_type True, coordinate of face
+2. Boolean_type False
