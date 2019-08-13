@@ -4,9 +4,11 @@ face detection, face recognition, GAN
 
 ### Must import
 
-1. face_recognition
-2. Pillow
-3. opencv-python
+1. dlib (19.17.0)
+2. face-recognition (1.2.3)
+3. face-recognition-models (0.3.0)
+4. Pillow (6.1.0)
+5. opencv-python(3.2.0)
 
 
 ### install manual
