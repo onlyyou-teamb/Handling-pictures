@@ -28,11 +28,28 @@ face detection, face recognition, GAN
 
 count the number of faces in the picture and return True if there is only one.
 
-*input:
+*input:*
  
 path of profile image
 
-*output: 
+*output: *
 
-1. Boolean_type True, coordinate of face
-2. Boolean_type False
+1. Boolean_type True
+2. coordinate of face
+
+1. Boolean_type False
+
+### coordinate_faces_ver2.py
+
+*input:*
+
+1. path of profile image2
+2. path of profile image2
+3. path of target image (picture with various people)
+
+*output:*
+
+1. width of target image
+2. height of target image
+3. all the coordinates of detected faces
+4. the coordinate of the face we know by the profile
