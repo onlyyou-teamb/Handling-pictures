@@ -24,11 +24,13 @@ face detection, face recognition, GAN
 
 ### num_of_face.py
 
-####input:
+count the number of faces in the picture and return True if there is only one.
+
+*input:
  
 path of profile image
 
-####output: 
+*output: 
 
 1. Boolean_type True, coordinate of face
 2. Boolean_type False
