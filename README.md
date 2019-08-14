@@ -32,13 +32,13 @@ count the number of faces in the picture and return True if there is only one.
  
 path of profile image
 
-*output1_if there is only one person: *
+*output1_if there is only one person:*
 
 
 1. Boolean_type True
 2. coordinate of face
 
-*output2_if not: *
+*output2_if not:*
 
 
 1. Boolean_type False
@@ -51,7 +51,7 @@ path of profile image
 2. path of profile image2
 3. path of target image (picture with various people)
 
-*output1_if there is no face in the target image*
+*output1_if there is no face in the target image:*
 
 
 1. "no people"
