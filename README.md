@@ -34,10 +34,13 @@ path of profile image
 
 *output1_if there is only one person: *
 
+
 1. Boolean_type True
 2. coordinate of face
 
 *output2_if not: *
+
+
 1. Boolean_type False
 
 ### coordinate_faces_ver2.py
@@ -48,7 +51,13 @@ path of profile image
 2. path of profile image2
 3. path of target image (picture with various people)
 
-*output:*
+*output1_if there is no face in the target image*
+
+
+1. "no people"
+
+*output2_else:*
+
 
 1. width of target image
 2. height of target image
