@@ -13,14 +13,16 @@ face detection, face recognition, GAN
 
 ### install manual
 
-1. git clone https://github.com/davisking/dlib.git
-2. cd dlib
-3. mkdir build; cd build; cmake ..; cmake --build .
-4. cd ..
-5. python3 setup.py install
-6. pip3 install face_recognition
-7. python3 -m pip install Pillow
-8. pip3 install opencv-python
+1. sudo apt-get -y install cmake
+2. git clone https://github.com/davisking/dlib.git
+3. cd dlib
+4. mkdir build; cd build; cmake ..; cmake --build .
+5. cd ..
+6. python3 setup.py install
+7. cd ..
+8. pip3 install face_recognition
+9. python3 -m pip install Pillow
+10. pip3 install opencv-python
 
 ## Function explain
 
