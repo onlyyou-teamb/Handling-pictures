@@ -2,7 +2,7 @@ import face_recognition
 from PIL import Image
 import cv2
 
-def CoordinateFaces (main_path1, main_path2, target_path):
+def CoordinateFaces (main_path1, main_path2, target_path): # gets 2pics from profile. 1 target pic(with various people)
     target_image = Image.open(target_path)
     width, height = target_image.size
 
@@ -38,29 +38,29 @@ def CoordinateFaces (main_path1, main_path2, target_path):
             result_loc = a
 
     # code from here before return is to test the result
-    a1, a2, a3, a4 = coordinates[result_loc]
-    img = Image.open(target_path)
-    area = (a4, a1, a2, a3)
-    cropped_img = img.crop(area)
-    cropped_img.save("./image/hyunjay_face1.jpg")
+    #a1, a2, a3, a4 = coordinates[result_loc]
+    #img = Image.open(target_path)
+    #area = (a4, a1, a2, a3)
+    #cropped_img = img.crop(area)
+    #cropped_img.save("./image/hyunjay_face2.jpg")
 
 
-    return width, height, coordinates, coordinates[result_loc]
+    return width, height, coordinates, coordinates[result_loc] # return image size, coordinates of faces and coordiates of known face
+
+#below is to test images
+#indi_sung_jin1 = "./image/KakaoTalk_20190803_203235073_25.jpg"
+#indi_sung_jin2 = "./image/KakaoTalk_20190809_152421406.jpg"
+#indi_sung_jin3 = "./image/KakaoTalk_20190810_210059414_05.jpg"
+#lot_of_people1 = "./image/KakaoTalk_20190806_133853463_04.jpg"
+#lot_of_people2 = "./image/KakaoTalk_20190810_215430625_04.jpg"
+#lot_of_people3 = "./image/KakaoTalk_20190813_112158357.jpg"
+#lot_of_people4 = "./image/KakaoTalk_20190731_222118936_01.jpg"
+#indi_youn_woo1 = "./image/KakaoTalk_20190809_141128768.jpg"
+#indi_youn_woo2 = "./image/KakaoTalk_20190812_113755922.jpg"
+#indi_young_ki1 = "./image/indiv_youngki.jpg"
+#indi_hyun_jay1 = "./image/KakaoTalk_20190811_222711792_05.jpg"
+#indi_hyun_jay2 = "./image/KakaoTalk_20190809_141004388.jpg"
 
 
-indi_sung_jin1 = "./image/KakaoTalk_20190803_203235073_25.jpg"
-indi_sung_jin2 = "./image/KakaoTalk_20190809_152421406.jpg"
-indi_sung_jin3 = "./image/KakaoTalk_20190810_210059414_05.jpg"
-lot_of_people1 = "./image/KakaoTalk_20190806_133853463_04.jpg"
-lot_of_people2 = "./image/KakaoTalk_20190810_215430625_04.jpg"
-lot_of_people3 = "./image/KakaoTalk_20190813_112158357.jpg"
-lot_of_people4 = "./image/KakaoTalk_20190731_222118936_01.jpg"
-indi_youn_woo1 = "./image/KakaoTalk_20190809_141128768.jpg"
-indi_youn_woo2 = "./image/KakaoTalk_20190812_113755922.jpg"
-indi_young_ki1 = "./image/indiv_youngki.jpg"
-indi_hyun_jay1 = "./image/KakaoTalk_20190811_222711792_05.jpg"
-indi_hyun_jay2 = "./image/KakaoTalk_20190809_141004388.jpg"
-
-
-print(CoordinateFaces(indi_hyun_jay1, indi_hyun_jay1, lot_of_people1))
+#print(CoordinateFaces(indi_hyun_jay1, indi_hyun_jay1, lot_of_people1))
 

@@ -15,9 +15,9 @@ def NumOfFace (path):  # input path of image
 
 # codes below is for test
 
-path1 = "./image/KakaoTalk_20190803_203235073_25.jpg"
-path2 = "./image/KakaoTalk_20190806_133853463_04.jpg"
+#path1 = "./image/KakaoTalk_20190803_203235073_25.jpg"
+#path2 = "./image/KakaoTalk_20190806_133853463_04.jpg"
 
 
-print(NumOfFace(path1))
-print(NumOfFace(path2))
+#print(NumOfFace(path1))
+#print(NumOfFace(path2))
